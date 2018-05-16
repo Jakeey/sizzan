@@ -158,7 +158,7 @@ blockquote {
     font-size: 16px;
     font-style: italic;
     line-height: 26px;
-    border-left: 2px solid #e4b95b;
+    border-left: 2px solid $primary-color;
     padding: 15px 20px;
 }
 
@@ -168,7 +168,7 @@ a {
     vertical-align: baseline;
     outline: none;
     text-decoration: none;
-    color: #e4b95b;
+    color: $primary-color;
 }
 
 a:hover,
@@ -184,13 +184,13 @@ a:focus {
 }
 
 ins {
-    background-color: #e4b95b;
+    background-color: $primary-color;
     color: #000;
     text-decoration: none;
 }
 
 mark {
-    background-color: #e4b95b;
+    background-color: $primary-color;
     color: #000;
     font-style: italic;
     font-weight: bold;

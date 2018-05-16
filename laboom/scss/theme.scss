@@ -46,7 +46,7 @@ Content: #7a7676
 Header h1 to h6: #383848
 Footer: #20202f
 
-a (standard): #e4b95b
+a (standard): $primary-color
 a (hover): #383848
 a (active): #383848
 a (focus): #383848
@@ -230,7 +230,7 @@ p {
     text-align: center;
     box-shadow: none;
     background: transparent;
-    color: #e4b95b;
+    color: $primary-color;
     font-size: 16px;
     -webkit-transition: all 0.5s ease 0s;
     -moz-transition: all 0.5s ease 0s;
@@ -253,15 +253,15 @@ p {
 }
 
 .btn-skin:hover {
-    background: #e4b95b;
+    background: $primary-color;
     color: #ffffff;
-    border-color: #e4b95b;
+    border-color: $primary-color;
 }
 
 .btn-primary-gold {
-    background: #e4b95b;
+    background: $primary-color;
     color: #ffffff;
-    border-color: #e4b95b;
+    border-color: $primary-color;
 }
 
 .btn-primary-gold:hover {
@@ -364,9 +364,9 @@ input[type="number"] {
 }
 
 .btn-primary-gold {
-    background: #e4b95b;
+    background: $primary-color;
     color: #ffffff;
-    border-color: #e4b95b;
+    border-color: $primary-color;
 }
 
 .btn-large {
@@ -398,11 +398,11 @@ input[type="number"] {
 }
 
 body main .txt-default {
-    color: #e4b95b;
+    color: $primary-color;
 }
 
 .invert .build-title h2 {
-    color: #e4b95b;
+    color: $primary-color;
 }
 
 .invert .build-title h6 {
@@ -420,7 +420,7 @@ body main .txt-default {
 }
 
 .bg-prim {
-    background-color: #e4b95b;
+    background-color: $primary-color;
 }
 
 body main .bg-skeen {
@@ -457,7 +457,7 @@ body main .home-small-pad {
 }
 
 .text-primary {
-    color: #e4b95b;
+    color: $primary-color;
 }
 
 .text-white {
@@ -751,7 +751,7 @@ textarea {
     float: left;
     width: 100%;
     position: relative;
-    background: #e4b95b;
+    background: $primary-color;
     padding: 15px 0;
     -webkit-transition: all 0.5s ease 0s;
     -moz-transition: all 0.5s ease 0s;
@@ -862,7 +862,7 @@ textarea {
     position: absolute;
     top: 64px;
     width: 100%;
-    background: #e4b95b;
+    background: $primary-color;
     display: none;
     padding: 20px 18px;
     min-width: 135px;
@@ -880,7 +880,7 @@ textarea {
     height: 0;
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;
-    border-bottom: 8px solid #e4b95b;
+    border-bottom: 8px solid $primary-color;
     right: 44px;
     position: absolute;
     top: -8px;
@@ -903,7 +903,7 @@ textarea {
 
 .language-menu .fa-caret-down {
     padding-left: 17px;
-    color: #e4b95b;
+    color: $primary-color;
     font-size: 16px;
 }
 
@@ -956,7 +956,7 @@ textarea {
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
-    color: #e4b95b;
+    color: $primary-color;
     left: 0px;
 }
 
@@ -1161,7 +1161,7 @@ textarea {
     left: 0px;
     top: 100%;
     color: #372727;
-    background: #e4b95b;
+    background: $primary-color;
     z-index: 99;
     padding: 25px 0px 25px 0px;
     font-size: 15px;
@@ -1205,7 +1205,7 @@ textarea {
 
 /*.menu-main ul > li.has-child > ul.drop-nav:before{
     position: absolute;
-    border-bottom: 12px dashed #e4b95b;
+    border-bottom: 12px dashed $primary-color;
     border-left: 12px solid transparent;
     border-right: 12px solid transparent;
     position: absolute;
@@ -1217,7 +1217,7 @@ textarea {
 
 .menu-main ul>li.has-child:hover>a:after {
     position: absolute;
-    border-bottom: 12px dashed #e4b95b;
+    border-bottom: 12px dashed $primary-color;
     border-left: 12px solid transparent;
     border-right: 12px solid transparent;
     position: absolute;
@@ -1405,7 +1405,7 @@ textarea {
     top: 70px;
     right: 0px;
     width: 100%;
-    background: #e4b95b;
+    background: $primary-color;
     height: 50px;
     color: #ffffff;
     font-family: 'Graviola-Regular';
@@ -1422,7 +1422,7 @@ textarea {
 .search-box input[type="text"] {
     width: 100%;
     height: 50px;
-    background: #e4b95b;
+    background: $primary-color;
     color: #ffffff;
     font-family: 'Graviola-Regular';
     font-size: 14px;
@@ -1478,7 +1478,7 @@ textarea {
     position: absolute;
     top: -18px;
     right: -18px;
-    background: #e4b95b url('../images/close.png') no-repeat center center;
+    background: $primary-color url('../images/close.png') no-repeat center center;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
     -ms-border-radius: 100%;
@@ -1714,7 +1714,7 @@ textarea {
 }
 
 .tp-caption span {
-    color: #e4b95b;
+    color: $primary-color;
 }
 
 .tp-caption i {
@@ -1748,8 +1748,8 @@ textarea {
 }
 
 .button-white:hover {
-    background: #e4b95b !important;
-    border-color: #e4b95b !important;
+    background: $primary-color !important;
+    border-color: $primary-color !important;
 }
 
 
@@ -2011,7 +2011,7 @@ textarea {
 }
 
 .menu-list h5 span {
-    color: #e4b95b;
+    color: $primary-color;
     position: absolute;
     right: 0;
     top: 0;
@@ -2183,7 +2183,7 @@ textarea {
 }
 
 .chef-blog .social-top a:hover {
-    color: #e4b95b;
+    color: $primary-color;
 }
 
 .chef-blog:hover {
@@ -2192,7 +2192,7 @@ textarea {
 }
 
 .chef-blog:hover h5 {
-    color: #e4b95b;
+    color: $primary-color;
 }
 
 .chef-blog:hover .chef-info {
@@ -2349,7 +2349,7 @@ textarea {
 }
 
 .feature-info span {
-    color: #e4b95b;
+    color: $primary-color;
     margin-right: 25px;
     font-size: 15px;
     vertical-align: middle;
@@ -2429,7 +2429,7 @@ textarea {
 
 .client-say .owl-theme .owl-dots .owl-dot.active span,
 .client-say .owl-theme .owl-dots .owl-dot:hover span {
-    background: #e4b95b;
+    background: $primary-color;
     width: 35px;
 }
 
@@ -2585,7 +2585,7 @@ textarea {
     position: relative;
     padding: 150px 0 40px 0;
     color: #f6f0f2;
-    border-bottom: 8px solid #e4b95b;
+    border-bottom: 8px solid $primary-color;
     font-family: 'Graviola-Regular';
     font-size: 15px;
 }
@@ -2596,7 +2596,7 @@ textarea {
 .footer-part h4,
 .footer-part h5,
 .footer-part h6 {
-    color: #e4b95b;
+    color: $primary-color;
 }
 
 .footer-inner {
@@ -2884,7 +2884,7 @@ textarea {
 }
 
 .feature-label .date-feature {
-    background: #e4b95b;
+    background: $primary-color;
 }
 
 .feature-label .owl-theme .owl-nav.disabled+.owl-dots {
@@ -2922,7 +2922,7 @@ textarea {
 }
 
 .chef-slote .chef-blog h5 {
-    color: #e4b95b;
+    color: $primary-color;
 }
 
 .gallery-slider.gallery-uniq {
@@ -3017,7 +3017,7 @@ textarea {
 }
 
 .address-blog h3 {
-    color: #e4b95b;
+    color: $primary-color;
     margin-bottom: 3px;
 }
 
@@ -3102,7 +3102,7 @@ textarea {
 .wrapper-spacer-bg h4,
 .wrapper-spacer-bg h5,
 .wrapper-spacer-bg h6 {
-    color: #e4b95b;
+    color: $primary-color;
 }
 
 .wrapper-spacer-bg .heade-xs {
@@ -3150,7 +3150,7 @@ textarea {
 }
 
 .wrapper-spacer-bg .portfolioFilter a.current {
-    color: #e4b95b;
+    color: $primary-color;
 }
 
 .wrapper-spacer-bg .portfolioFilter a {
@@ -3182,7 +3182,7 @@ textarea {
 }
 
 .wrapper-spacer-bg .chef-slote .chef-inner:hover {
-    background: #e4b95b;
+    background: $primary-color;
 }
 
 .wrapper-spacer-bg .chef-slote .chef-inner:hover .chef-info {
@@ -3219,7 +3219,7 @@ textarea {
 
 .wrapper-spacer-bg .owl-theme .owl-dots .owl-dot.active span,
 .wrapper-spacer-bg .owl-theme .owl-dots .owl-dot:hover span {
-    background: #e4b95b;
+    background: $primary-color;
 }
 
 .wrapper-spacer-bg .owl-theme .owl-dots .owl-dot span {
@@ -3254,7 +3254,7 @@ textarea {
 }
 
 .footer-mix a:hover {
-    color: #e4b95b;
+    color: $primary-color;
 }
 
 .footer-mix .social-top {
@@ -3343,7 +3343,7 @@ textarea {
 
 .dishes-filter .portfolioFilter a.current {
     background: transparent;
-    color: #e4b95b;
+    color: $primary-color;
 }
 
 .dishes-filter .portfolioFilter a.current:before {
@@ -3455,7 +3455,7 @@ textarea {
 }
 
 .footer-form-left h3 {
-    color: #e4b95b;
+    color: $primary-color;
 }
 
 .footer-form-left p:last-child {
@@ -3633,7 +3633,7 @@ textarea {
 
 .menu-return .portfolioFilter a.current {
     background: transparent;
-    color: #e4b95b;
+    color: $primary-color;
 }
 
 .footer-inset {
@@ -3748,7 +3748,7 @@ textarea {
 .breadcrumb-inner span {
     display: inline-block;
     width: auto;
-    color: #e4b95b;
+    color: $primary-color;
 }
 
 .discount-part {
@@ -3760,7 +3760,7 @@ textarea {
 }
 
 .discount-part h2 span {
-    color: #e4b95b;
+    color: $primary-color;
     font-size: 60px;
     font-weight: 700;
 }
@@ -3822,7 +3822,7 @@ textarea {
 }
 
 .menu-sector-list h6 span {
-    color: #e4b95b;
+    color: $primary-color;
     position: absolute;
     right: 0;
     top: 0;
@@ -3900,7 +3900,7 @@ textarea {
 }
 
 .menu-round-info h5 span {
-    color: #e4b95b;
+    color: $primary-color;
     position: absolute;
     right: 0px;
     top: 0px;
@@ -3935,7 +3935,7 @@ textarea {
 }
 
 .service-track-inner h3 span {
-    color: #e4b95b;
+    color: $primary-color;
     display: block;
 }
 
@@ -3958,7 +3958,7 @@ textarea {
     top: 100%;
     left: 0px;
     width: 100%;
-    background-color: #e4b95b;
+    background-color: $primary-color;
     z-index: 1;
     height: 100%;
     padding: 20px 15px;
@@ -4288,7 +4288,7 @@ textarea {
 }
 
 .blog-left-section .list li {
-    color: #e4b95b;
+    color: $primary-color;
     margin-top: 10px;
 }
 
@@ -4451,7 +4451,7 @@ textarea {
 }
 
 .best-deal-right strong {
-    color: #e4b95b;
+    color: $primary-color;
 }
 
 .best-deal-blog:last-child {
@@ -4514,7 +4514,7 @@ textarea {
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
     transform: translateX(-50%);
-    background: #e4b95b;
+    background: $primary-color;
 }
 
 .blog-list-outer .feature-img {
@@ -4565,7 +4565,7 @@ textarea {
     font-size: 90px;
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
-    color: #e4b95b;
+    color: $primary-color;
     font-style: normal;
 }
 
@@ -4584,7 +4584,7 @@ textarea {
     left: 0px;
     top: 0px;
     font-size: 18px;
-    color: #e4b95b;
+    color: $primary-color;
 }
 
 .share-tag {
@@ -4714,7 +4714,7 @@ textarea {
 .comment-date {
     position: absolute;
     font-size: 14px;
-    color: #e4b95b;
+    color: $primary-color;
     right: 0px;
     top: -2px;
     width: 32%;
@@ -4860,7 +4860,7 @@ textarea {
 }
 
 .shop-main-list h5 strong {
-    color: #e4b95b;
+    color: $primary-color;
 }
 
 .shop-main-list {
@@ -4908,7 +4908,7 @@ textarea {
 
 .slick-shop-thumb .slick-current:before {
     position: absolute;
-    border: 2px solid #e4b95b;
+    border: 2px solid $primary-color;
     content: "";
     width: 100%;
     height: 100%;
@@ -4949,7 +4949,7 @@ textarea {
 }
 
 .star-rating span.star-rating-customer:before {
-    color: #e4b95b;
+    color: $primary-color;
     content: "SSSSS";
     left: 0;
     position: absolute;
@@ -5022,7 +5022,7 @@ textarea {
 
 .review-text {
     margin-left: 10px;
-    color: #e4b95b;
+    color: $primary-color;
 }
 
 .price-textbox {
@@ -5214,7 +5214,7 @@ textarea {
     min-width: 110px;
     height: 50px;
     line-height: 50px;
-    background: #e4b95b;
+    background: $primary-color;
     text-align: center;
     color: #ffffff;
     text-transform: uppercase;
@@ -5261,7 +5261,7 @@ textarea {
 }
 
 .related-info a strong {
-    color: #e4b95b;
+    color: $primary-color;
 }
 
 .comment-review-tab .nav-tabs {
@@ -5325,10 +5325,10 @@ ul.checkout-bar li.active {
 
 ul.checkout-bar li.done-proceed:before,
 ul.checkout-bar li.active:before {
-    background: #e4b95b;
+    background: $primary-color;
     z-index: 9;
     color: #ffffff;
-    border-color: #e4b95b;
+    border-color: $primary-color;
 }
 
 .checkout-bar li:after {
@@ -5345,7 +5345,7 @@ ul.checkout-bar li.active:before {
 
 .checkout-bar li.done-proceed:after {
     -webkit-animation: myanimation 3s 0;
-    background-color: #e4b95b;
+    background-color: $primary-color;
     content: "";
     height: 5px;
     width: 100%;
@@ -5757,7 +5757,7 @@ table.shop-cart-table .shop-cart-close {
 
 .shop-checkout-right .price-big {
     font-size: 22px;
-    color: #e4b95b;
+    color: $primary-color;
     font-weight: 700;
 }
 
@@ -5841,7 +5841,7 @@ table.shop-cart-table .shop-cart-close {
 }
 
 .register-form .button-default-submit:hover {
-    background: #e4b95b;
+    background: $primary-color;
 }
 
 .register-wrap p {
@@ -5869,8 +5869,8 @@ table.shop-cart-table .shop-cart-close {
 }
 
 .login-form .button-default-submit:hover {
-    background: #e4b95b;
-    border-color: #e4b95b;
+    background: $primary-color;
+    border-color: $primary-color;
 }
 
 .divider-login {
@@ -6014,7 +6014,7 @@ table.shop-cart-table .shop-cart-close {
 }
 
 .contact-part address a:hover {
-    color: #e4b95b;
+    color: $primary-color;
 }
 
 .contact-part .title {
@@ -6070,7 +6070,7 @@ table.shop-cart-table .shop-cart-close {
 }
 
 .error-404-inner a {
-    color: #e4b95b;
+    color: $primary-color;
     font-family: 'QuicksandBook-Regular';
     text-decoration: underline;
 }
@@ -6078,7 +6078,7 @@ table.shop-cart-table .shop-cart-close {
 .error-404-title {
     display: inline-block;
     width: 100%;
-    color: #e4b95b;
+    color: $primary-color;
     font-size: 200px;
     margin-bottom: 40px;
     font-family: 'Quicksand', sans-serif;
@@ -6235,7 +6235,7 @@ body main .team-page {
 
 .terms-right li.active a,
 .terms-right li:hover a {
-    background: #e4b95b;
+    background: $primary-color;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     -ms-border-radius: 50px;
@@ -6282,7 +6282,7 @@ body main .team-page {
 
 .team-single-right h6 {
     font-weight: 400;
-    color: #e4b95b;
+    color: $primary-color;
     font-family: 'Source Sans Pro', sans-serif;
     margin-bottom: 10px;
 }
@@ -6296,7 +6296,7 @@ body main .team-page {
 }
 
 .team-single-right p a:hover {
-    color: #e4b95b;
+    color: $primary-color;
 }
 
 .team-single-right .social-top {
@@ -6308,7 +6308,7 @@ body main .team-page {
 }
 
 .team-single-right .social-top a:hover {
-    color: #e4b95b;
+    color: $primary-color;
 }
 
 .team-award {
