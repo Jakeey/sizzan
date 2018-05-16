@@ -82,53 +82,7 @@ Sidebar heading: 18px 14px/42px Source Sans Pro, Graviola-Regular, QuicksandBook
 
 
 
-/*------------------------------------------------------------------
-[5. Main Menu ]
-------------------------------------------------------------------*/
 
-.menu-wrapper {
-    display: inline-block;
-    width: 100%;
-}
-
-.menu-list {
-    float: left;
-    width: 100%;
-    position: relative;
-    padding-left: 135px;
-    margin-bottom: 25px;
-}
-
-.menu-list-product {
-    left: 0;
-    max-width: 105px;
-    position: absolute;
-}
-
-.menu-list h5 {
-    border-bottom: 1px dashed #cccccc;
-    color: #20202f;
-    font-size: 20px;
-    padding-bottom: 14px;
-    padding-right: 60px;
-    position: relative;
-    font-weight: 700;
-    margin-bottom: 10px;
-}
-
-.menu-list h5 span {
-    color: $primary-color;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-
-.btn-outer {
-    display: inline-block;
-    width: 100%;
-    margin-top: 30px;
-    text-align: center;
-}
 
 
 
