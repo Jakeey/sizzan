@@ -1,0 +1,371 @@
+/*------------------------------------------------------------------
+[6. Chef ]
+------------------------------------------------------------------*/
+
+.chef-blog {
+    float: left;
+    width: 100%;
+    position: relative;
+    border: 2px solid #f4f2ed;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+    border-radius: 18px;
+}
+
+.chef-inner {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+.chef-member {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: -100px;
+}
+
+.chef-member img {
+    display: inline-block !important;
+    width: auto !important;
+}
+
+.chef-info {
+    float: left;
+    width: 100%;
+    background: #f4f2ed;
+    padding: 13px 25px;
+    -webkit-border-bottom-left-radius: 15px;
+    -moz-border-bottom-left-radius: 15px;
+    -ms-border-bottom-left-radius: 15px;
+    -o-border-bottom-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    -webkit-border-bottom-right-radius: 15px;
+    -moz-border-bottom-right-radius: 15px;
+    -ms-border-bottom-right-radius: 15px;
+    -o-border-bottom-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: relative;
+}
+
+.chef-info h3,
+.chef-info h4,
+.chef-info h5,
+.chef-info h6,
+.chef-info p,
+.chef-info span,
+.chef-info span,
+.chef-info a {
+    position: relative;
+    z-index: 2;
+}
+
+.chef-slider {
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.chef-slider.owl-carousel .owl-stage-outer {
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.chef-blog h5 {
+    margin-bottom: 2px;
+}
+
+.chef-part .icon-bottom-left {
+    top: inherit;
+    bottom: 65px;
+}
+
+.owl-theme .owl-nav .owl-prev {
+    background: url("../images/arrow-black-left.png") no-repeat center center;
+    float: left;
+    height: 50px;
+    left: -120px;
+    width: 50px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-indent: -10000px;
+    position: absolute;
+}
+
+.owl-theme .owl-nav .owl-prev:hover {
+    background: url("../images/arrow-left-active.png") no-repeat center center;
+}
+
+.owl-theme .owl-nav .owl-next {
+    background: url("../images/arrow-black-right.png") no-repeat center center;
+    float: left;
+    height: 50px;
+    right: -120px;
+    width: 50px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-indent: -10000px;
+    position: absolute;
+}
+
+.owl-theme .owl-nav .owl-next:hover {
+    background: url("../images/arrow-right-active.png") no-repeat center center;
+}
+
+.chef-blog .social-top {
+    width: 100%;
+    margin-top: 3px;
+    display: none;
+    z-index: 5;
+}
+
+.chef-info:before {
+    border: 2px solid #20202f;
+    -webkit-border-bottom-left-radius: 16px;
+    -moz-border-bottom-left-radius: 16px;
+    -ms-border-bottom-left-radius: 16px;
+    -o-border-bottom-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    -webkit-border-bottom-right-radius: 16px;
+    -moz-border-bottom-right-radius: 16px;
+    -ms-border-bottom-right-radius: 16px;
+    -o-border-bottom-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    content: "";
+    height: 100%;
+    left: -0.6%;
+    position: absolute;
+    top: 0;
+    width: 101.4%;
+    z-index: 1;
+    display: none;
+}
+
+.chef-blog .social-top a {
+    color: #ffffff;
+}
+
+.chef-blog .social-top a:hover {
+    color: $primary-color;
+}
+
+.chef-blog:hover {
+    border-color: #20202f;
+    color: #ffffff;
+}
+
+.chef-blog:hover h5 {
+    color: $primary-color;
+}
+
+.chef-blog:hover .chef-info {
+    background: #20202f;
+}
+
+.chef-blog:hover .social-top {
+    display: block;
+}
+
+.chef-blog:hover .chef-info:before {
+    display: block;
+}
+
+/*------------------------------------------------------------------
+[7. Food Hours ]
+------------------------------------------------------------------*/
+
+.food-blog {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    margin: 70px 0 0 0;
+    overflow-x: hidden;
+}
+
+.food-blog-inner {
+    float: left;
+    width: 100%;
+    position: relative;
+    font-family: 'Graviola-Regular';
+    color: #ffffff;
+    text-align: center;
+}
+
+.food-blog-inner h2 {
+    color: #ffffff;
+    margin: 12px 0 10px 0;
+}
+
+.food-blog .row {
+    margin-right: -80px;
+    margin-left: -80px;
+}
+
+.food-blog .col-xs-12 {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.food-item {
+    display: inline-block;
+    width: auto;
+    position: relative;
+}
+
+.food-item:after {
+    position: absolute;
+    top: 59px;
+    right: 100%;
+    background: url('../images/line.png') no-repeat center center;
+    height: 2px;
+    width: 180px;
+    content: "";
+    margin-right: 29px;
+    background-size: 100% 2px;
+}
+
+.food-mxs:first-child .food-item:after {
+    display: none;
+}
+
+.food-item-inner {
+    display: table-cell;
+    vertical-align: bottom;
+    height: 90px;
+}
+
+
+
+/* Feature Blog Part */
+
+.feature-img {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    float: left;
+}
+
+.feature-blog .item,
+.feature-blog .owl-item {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.feature-blog .item .feature-img img {
+    -webkit-border-top-left-radius: 20px;
+    -moz-border-top-left-radius: 20px;
+    -ms-border-top-left-radius: 20px;
+    -o-border-top-left-radius: 20px;
+    border-top-left-radius: 20px;
+    -webkit-border-top-right-radius: 20px;
+    -moz-border-top-right-radius: 20px;
+    -ms-border-top-right-radius: 20px;
+    -o-border-top-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.date-feature {
+    background: #20202f none repeat scroll 0 0;
+    border-radius: 17px;
+    color: #ffffff;
+    font-family: "Quicksand", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    height: 78px;
+    padding: 12px 5px;
+    position: absolute;
+    right: 20px;
+    text-align: center;
+    top: 20px;
+    width: 78px;
+    z-index: 1;
+}
+
+.date-feature small {
+    color: #ffffff;
+    display: block;
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.feature-info {
+    display: inline-block;
+    padding: 20px 25px;
+    width: 100%;
+    background: #ffffff;
+    float: left;
+    -webkit-border-bottom-left-radius: 20px;
+    -moz-border-bottom-left-radius: 20px;
+    -ms-border-bottom-left-radius: 20px;
+    -o-border-bottom-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    -moz-border-bottom-right-radius: 20px;
+    -ms-border-bottom-right-radius: 20px;
+    -o-border-bottom-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.feature-info span {
+    color: $primary-color;
+    margin-right: 25px;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+.feature-info span .icon-user:before,
+.feature-info span .icon-comment:before {
+    display: none;
+}
+
+.icon-user {
+    background: url('../images/user.png') no-repeat center center;
+    width: 17px;
+    height: 22px;
+    vertical-align: middle;
+    font-weight: normal;
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.icon-comment {
+    background: url('../images/comment.png') no-repeat center center;
+    width: 23px;
+    height: 21px;
+    vertical-align: middle;
+    font-weight: normal;
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.icon-more {
+    background: url('../images/more-arrow.png') no-repeat center center;
+    width: 17px;
+    height: 11px;
+    vertical-align: middle;
+    font-weight: normal;
+    display: inline-block;
+    margin-left: 14px;
+}
+
+.feature-info h5 {
+    color: #20202f;
+    letter-spacing: 1px;
+    margin: 10px 0;
+}
+
+.feature-info p {
+    margin-bottom: 10px;
+}
