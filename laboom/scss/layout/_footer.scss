@@ -1,0 +1,355 @@
+/*------------------------------------------------------------------
+[10. Footer ]
+------------------------------------------------------------------*/
+
+.footer-part {
+    float: left;
+    width: 100%;
+    background: #20202f;
+    position: relative;
+    padding: 150px 0 40px 0;
+    color: #f6f0f2;
+    border-bottom: 8px solid $primary-color;
+    font-family: 'Graviola-Regular';
+    font-size: 15px;
+}
+
+.footer-part h1,
+.footer-part h2,
+.footer-part h3,
+.footer-part h4,
+.footer-part h5,
+.footer-part h6 {
+    color: $primary-color;
+}
+
+.footer-inner {
+    float: left;
+    width: 100%;
+    margin: 0 0 55px 0;
+}
+
+.footer-part a {
+    color: #f6f0f2;
+}
+
+.footer-part a:hover {
+    color: #f6f0f2;
+}
+
+.footer-info {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-info p {
+    margin: 0px;
+}
+
+.footer-info h3 {
+    margin-bottom: 32px;
+}
+
+.copy-right {
+    float: left;
+    width: 100%;
+    color: #5c5c6e;
+}
+
+.copy-right a {
+    color: #5c5c6e;
+}
+
+.copy-right a:hover {
+    color: #bdbdd3;
+}
+
+.social-round {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+}
+
+.social-round ul,
+.social-round li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.social-round li {
+    display: inline-block;
+    width: auto;
+    margin-right: 18px;
+}
+
+.social-round li a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+    border: 2px solid #383848;
+    line-height: 50px;
+    font-size: 16px;
+    color: #5c5c6e;
+}
+
+.copyright-before {
+    margin-top: 12px;
+}
+
+.copyright-after .social-round {
+    float: right;
+}
+
+.icon-find {
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    width: 254px;
+    background: url('../images/find-us.png') no-repeat center center;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    height: 59px;
+    z-index: 30;
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+
+.icon-find span {
+    display: inline-block;
+    width: 100%;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'Graviola-Regular';
+    margin-top: -4px;
+}
+
+.location-footer-map {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 32;
+    height: 101.8%;
+    display: none;
+}
+
+.location-footer-map.location-open {
+    display: block;
+}
+
+.location-footer-map iframe {
+    width: 100% !important;
+    height: 100%;
+    float: left;
+}
+
+.icon-find-location {
+    position: absolute;
+    left: 50%;
+    top: -59px;
+    position: absolute;
+    left: 50%;
+    width: 254px;
+    background: url('../images/pattern-dark.png') no-repeat center center;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    height: 59px;
+    z-index: 30;
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+
+.icon-find-location span {
+    display: inline-block;
+    width: 100%;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: 'Graviola-Regular';
+    margin-top: -4px;
+    top: -5px;
+    position: relative;
+}
+
+.icon-find-location img {
+    max-width: 22px;
+}
+
+
+
+/* Home Page 2 Style */
+
+.wrapper-spacer {
+    padding: 60px 70px;
+    float: left;
+    width: 100%;
+}
+
+.home-ride,
+.home-ride .tp-banner-container,
+.home-ride .tp-banner,
+.home-ride .tp-banner li,
+.home-ride .tp-bgimg,
+.home-ride .slotholder {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.header-part.header-on {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    top: 138px;
+}
+
+.header-on .header-bottom {
+    background: transparent;
+    border-bottom: none;
+}
+
+.header-on .logo>a {
+    top: -35px;
+}
+
+.on-scroll {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    bottom: 50px;
+    z-index: 30;
+    text-align: center;
+}
+
+.content-middle {
+    width: 615px;
+    margin: 0 auto;
+}
+
+.invert .build-white h2 {
+    color: #ffffff;
+}
+
+.invert .build-white h6 {
+    color: #b9b7b2;
+}
+
+.portfolioFilter-inner.portfolioFilter-sample {
+    box-shadow: none !important;
+}
+
+.portfolioFilter .portfolioFilter-sample a.current {
+    background: #c4993a;
+    color: #ffffff;
+}
+
+.portfolioContainer-sample .menu-list h5 {
+    color: #ffffff;
+}
+
+.radius-part {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.feature-label .feature-img {
+    width: 36%;
+}
+
+.feature-label .feature-img img {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.feature-label .date-feature small {
+    margin-top: 0px;
+}
+
+.feature-label .feature-info {
+    width: 64%;
+    background: transparent;
+    padding: 26px 25px;
+}
+
+.feature-label .owl-item {
+    background: #f4f2ed;
+}
+
+.feature-label .feature-info span {
+    color: #383848;
+}
+
+.feature-label .icon-user {
+    background: url('../images/user1.png') no-repeat center center;
+}
+
+.feature-label .icon-comment {
+    background: url('../images/comment1.png') no-repeat center center;
+}
+
+.feature-label .date-feature {
+    background: $primary-color;
+}
+
+.feature-label .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 65px;
+}
+
+.feature-primary {
+    color: #20202f;
+}
+
+.feature-primary .build-title h6 {
+    color: #ffffff;
+}
+
+.feature-primary .feature-icon-table img {
+    filter: brightness(0) invert(1);
+}
+
+.chef-slote .chef-blog {
+    border-color: transparent;
+}
+
+.chef-slote .chef-inner {
+    background: #ffffff;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+    border-radius: 18px;
+}
+
+.chef-slote .chef-info {
+    background: #20202f;
+    color: #ffffff;
+}
+
+.chef-slote .chef-blog h5 {
+    color: $primary-color;
+}
+
+.gallery-slider.gallery-uniq {
+    padding-left: 0px;
+    padding-right: 0px;
+}
