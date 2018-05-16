@@ -40,13 +40,13 @@ AUTHOR: Sailendra SHRESTHA
 
 Background: #ffffff
 Content: #7a7676
-Header h1 to h6: #383848
+Header h1 to h6: $secondary-color
 Footer: #20202f
 
 a (standard): $primary-color
-a (hover): #383848
-a (active): #383848
-a (focus): #383848
+a (hover): $secondary-color
+a (active): $secondary-color
+a (focus): $secondary-color
 -------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 [Typography]
@@ -2999,6 +2999,85 @@ textarea {
   margin-bottom: 10px; }
 
 /*------------------------------------------------------------------
+[11. Map Address ]
+------------------------------------------------------------------*/
+.map-address {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px; }
+
+.map-address-inner {
+  float: left;
+  width: 100%;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px; }
+
+.map-address-inner img,
+.map-address-inner iframe {
+  width: 100% !important;
+  -webkit-border-bottom-left-radius: 20px;
+  -moz-border-bottom-left-radius: 20px;
+  -ms-border-bottom-left-radius: 20px;
+  -o-border-bottom-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  -webkit-border-bottom-right-radius: 20px;
+  -moz-border-bottom-right-radius: 20px;
+  -ms-border-bottom-right-radius: 20px;
+  -o-border-bottom-right-radius: 20px;
+  border-bottom-right-radius: 20px; }
+
+.map-top {
+  float: left;
+  width: 100%;
+  background: #20202f;
+  padding: 50px 0;
+  -webkit-border-top-left-radius: 20px;
+  -moz-border-top-left-radius: 20px;
+  -ms-border-top-left-radius: 20px;
+  -o-border-top-left-radius: 20px;
+  border-top-left-radius: 20px;
+  -webkit-border-top-right-radius: 20px;
+  -moz-border-top-right-radius: 20px;
+  -ms-border-top-right-radius: 20px;
+  -o-border-top-right-radius: 20px;
+  border-top-right-radius: 20px; }
+
+.map-bottom {
+  float: left;
+  width: 100%;
+  -webkit-border-bottom-left-radius: 20px;
+  -moz-border-bottom-left-radius: 20px;
+  -ms-border-bottom-left-radius: 20px;
+  -o-border-bottom-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  -webkit-border-bottom-right-radius: 20px;
+  -moz-border-bottom-right-radius: 20px;
+  -ms-border-bottom-right-radius: 20px;
+  -o-border-bottom-right-radius: 20px;
+  border-bottom-right-radius: 20px; }
+
+.address-blog {
+  float: left;
+  width: auto;
+  color: #ffffff;
+  padding-right: 10%; }
+
+.address-blog:last-child {
+  padding-right: 0px; }
+
+.address-blog a {
+  color: #ffffff; }
+
+.address-blog h3 {
+  color: #e85404;
+  margin-bottom: 3px; }
+
+/*------------------------------------------------------------------
 [8. Client ]
 ------------------------------------------------------------------*/
 .client .build-title {
@@ -3139,85 +3218,6 @@ textarea {
 
 .gallery-slider .owl-theme .owl-nav .owl-next {
   right: -60px; }
-
-/*------------------------------------------------------------------
-[11. Map Address ]
-------------------------------------------------------------------*/
-.map-address {
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-  border-radius: 20px; }
-
-.map-address-inner {
-  float: left;
-  width: 100%;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-  border-radius: 20px; }
-
-.map-address-inner img,
-.map-address-inner iframe {
-  width: 100% !important;
-  -webkit-border-bottom-left-radius: 20px;
-  -moz-border-bottom-left-radius: 20px;
-  -ms-border-bottom-left-radius: 20px;
-  -o-border-bottom-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-  -webkit-border-bottom-right-radius: 20px;
-  -moz-border-bottom-right-radius: 20px;
-  -ms-border-bottom-right-radius: 20px;
-  -o-border-bottom-right-radius: 20px;
-  border-bottom-right-radius: 20px; }
-
-.map-top {
-  float: left;
-  width: 100%;
-  background: #20202f;
-  padding: 50px 0;
-  -webkit-border-top-left-radius: 20px;
-  -moz-border-top-left-radius: 20px;
-  -ms-border-top-left-radius: 20px;
-  -o-border-top-left-radius: 20px;
-  border-top-left-radius: 20px;
-  -webkit-border-top-right-radius: 20px;
-  -moz-border-top-right-radius: 20px;
-  -ms-border-top-right-radius: 20px;
-  -o-border-top-right-radius: 20px;
-  border-top-right-radius: 20px; }
-
-.map-bottom {
-  float: left;
-  width: 100%;
-  -webkit-border-bottom-left-radius: 20px;
-  -moz-border-bottom-left-radius: 20px;
-  -ms-border-bottom-left-radius: 20px;
-  -o-border-bottom-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-  -webkit-border-bottom-right-radius: 20px;
-  -moz-border-bottom-right-radius: 20px;
-  -ms-border-bottom-right-radius: 20px;
-  -o-border-bottom-right-radius: 20px;
-  border-bottom-right-radius: 20px; }
-
-.address-blog {
-  float: left;
-  width: auto;
-  color: #ffffff;
-  padding-right: 10%; }
-
-.address-blog:last-child {
-  padding-right: 0px; }
-
-.address-blog a {
-  color: #ffffff; }
-
-.address-blog h3 {
-  color: #e85404;
-  margin-bottom: 3px; }
 
 /* Home Page 3 Style */
 .wrapper-spacer-bg {

@@ -43,13 +43,13 @@ AUTHOR: Sailendra SHRESTHA
 
 Background: #ffffff
 Content: #7a7676
-Header h1 to h6: #383848
+Header h1 to h6: $secondary-color
 Footer: #20202f
 
 a (standard): $primary-color
-a (hover): #383848
-a (active): #383848
-a (focus): #383848
+a (hover): $secondary-color
+a (active): $secondary-color
+a (focus): $secondary-color
 -------------------------------------------------------------------*/
 
 
@@ -270,94 +270,7 @@ Sidebar heading: 18px 14px/42px Source Sans Pro, Graviola-Regular, QuicksandBook
 
 
 
-/*------------------------------------------------------------------
-[11. Map Address ]
-------------------------------------------------------------------*/
 
-.map-address {
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-    border-radius: 20px;
-}
-
-.map-address-inner {
-    float: left;
-    width: 100%;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-    border-radius: 20px;
-}
-
-.map-address-inner img,
-.map-address-inner iframe {
-    width: 100% !important;
-    -webkit-border-bottom-left-radius: 20px;
-    -moz-border-bottom-left-radius: 20px;
-    -ms-border-bottom-left-radius: 20px;
-    -o-border-bottom-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    -webkit-border-bottom-right-radius: 20px;
-    -moz-border-bottom-right-radius: 20px;
-    -ms-border-bottom-right-radius: 20px;
-    -o-border-bottom-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-
-.map-top {
-    float: left;
-    width: 100%;
-    background: #20202f;
-    padding: 50px 0;
-    -webkit-border-top-left-radius: 20px;
-    -moz-border-top-left-radius: 20px;
-    -ms-border-top-left-radius: 20px;
-    -o-border-top-left-radius: 20px;
-    border-top-left-radius: 20px;
-    -webkit-border-top-right-radius: 20px;
-    -moz-border-top-right-radius: 20px;
-    -ms-border-top-right-radius: 20px;
-    -o-border-top-right-radius: 20px;
-    border-top-right-radius: 20px;
-}
-
-.map-bottom {
-    float: left;
-    width: 100%;
-    -webkit-border-bottom-left-radius: 20px;
-    -moz-border-bottom-left-radius: 20px;
-    -ms-border-bottom-left-radius: 20px;
-    -o-border-bottom-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    -webkit-border-bottom-right-radius: 20px;
-    -moz-border-bottom-right-radius: 20px;
-    -ms-border-bottom-right-radius: 20px;
-    -o-border-bottom-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-
-.address-blog {
-    float: left;
-    width: auto;
-    color: #ffffff;
-    padding-right: 10%;
-}
-
-.address-blog:last-child {
-    padding-right: 0px;
-}
-
-.address-blog a {
-    color: #ffffff;
-}
-
-.address-blog h3 {
-    color: $primary-color;
-    margin-bottom: 3px;
-}
 
 
 
@@ -411,7 +324,7 @@ Sidebar heading: 18px 14px/42px Source Sans Pro, Graviola-Regular, QuicksandBook
 }
 
 .wrapper-spacer-bg .table-title h2 {
-    color: #383848;
+    color: $secondary-color;
 }
 
 .wrapper-spacer-bg .modal-body .jq-selectbox__select {
@@ -419,7 +332,7 @@ Sidebar heading: 18px 14px/42px Source Sans Pro, Graviola-Regular, QuicksandBook
 }
 
 .wrapper-spacer-bg .jq-selectbox__select {
-    border-color: #383848;
+    border-color: $secondary-color;
 }
 
 .wrapper-spacer-bg .jq-selectbox__select-text {
@@ -433,7 +346,7 @@ Sidebar heading: 18px 14px/42px Source Sans Pro, Graviola-Regular, QuicksandBook
 .wrapper-spacer-bg .table-part.booktable input[type="number"] {
     background: transparent;
     color: #636375;
-    border-color: #383848;
+    border-color: $secondary-color;
 }
 
 .wrapper-spacer-bg .portfolioFilter-inner,
@@ -455,7 +368,7 @@ Sidebar heading: 18px 14px/42px Source Sans Pro, Graviola-Regular, QuicksandBook
 }
 
 .wrapper-spacer-bg .chef-slote .chef-info {
-    background: #383848;
+    background: $secondary-color;
 }
 
 .wrapper-spacer-bg .owl-theme .owl-nav .owl-prev {
@@ -520,7 +433,7 @@ Sidebar heading: 18px 14px/42px Source Sans Pro, Graviola-Regular, QuicksandBook
 }
 
 .wrapper-spacer-bg .owl-theme .owl-dots .owl-dot span {
-    background: #383848;
+    background: $secondary-color;
 }
 
 .wrapper-spacer-bg .feature-list h5,
@@ -541,7 +454,7 @@ Sidebar heading: 18px 14px/42px Source Sans Pro, Graviola-Regular, QuicksandBook
     left: 4%;
     width: 92%;
     height: 1px;
-    background: #383848;
+    background: $secondary-color;
     content: "";
     top: 40px;
 }
@@ -873,7 +786,7 @@ Sidebar heading: 18px 14px/42px Source Sans Pro, Graviola-Regular, QuicksandBook
 }
 
 .header-expert .menu-main li a {
-    color: #383848;
+    color: $secondary-color;
 }
 
 .header-expert .search-part>a {
@@ -885,7 +798,7 @@ Sidebar heading: 18px 14px/42px Source Sans Pro, Graviola-Regular, QuicksandBook
 }
 
 .header-expert .header-collect a {
-    color: #383848;
+    color: $secondary-color;
 }
 
 .header-expert .search-box {
@@ -1580,7 +1493,7 @@ Sidebar heading: 18px 14px/42px Source Sans Pro, Graviola-Regular, QuicksandBook
 }
 
 .blog-left-section h5 {
-    color: #383848;
+    color: $secondary-color;
     text-align: left;
 }
 
@@ -2550,7 +2463,7 @@ Sidebar heading: 18px 14px/42px Source Sans Pro, Graviola-Regular, QuicksandBook
 }
 
 .related-info a {
-    color: #383848;
+    color: $secondary-color;
 }
 
 .related-info h6 {
@@ -3500,7 +3413,7 @@ body main .team-page {
 .terms-right {
     float: left;
     width: 100%;
-    background: #383848;
+    background: $secondary-color;
     -webkit-border-radius: 17px;
     -moz-border-radius: 17px;
     -ms-border-radius: 17px;

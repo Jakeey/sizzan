@@ -93,7 +93,7 @@
     -ms-border-radius: 100%;
     -o-border-radius: 100%;
     border-radius: 100%;
-    border: 2px solid #383848;
+    border: 2px solid $secondary-color;
     line-height: 50px;
     font-size: 16px;
     color: #5c5c6e;
@@ -296,7 +296,7 @@
 }
 
 .feature-label .feature-info span {
-    color: #383848;
+    color: $secondary-color;
 }
 
 .feature-label .icon-user {
