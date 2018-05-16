@@ -757,7 +757,7 @@ textarea {
     width: auto;
     font-family: 'Graviola-Regular';
     font-size: 13px;
-    background: #383848;
+    background: $secondary-color;
     -webkit-border-radius: 18px;
     -moz-border-radius: 18px;
     -ms-border-radius: 18px;
@@ -831,7 +831,7 @@ textarea {
 .header-bottom {
     float: left;
     width: 100%;
-    background: #383848;
+    background: $secondary-color;
     position: relative;
     border-bottom: 6px solid #1b1b29;
 }

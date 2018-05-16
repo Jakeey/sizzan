@@ -40,13 +40,13 @@ AUTHOR: Sailendra SHRESTHA
 
 Background: #ffffff
 Content: #7a7676
-Header h1 to h6: #383848
+Header h1 to h6: $secondary-color
 Footer: #20202f
 
 a (standard): $primary-color
-a (hover): #383848
-a (active): #383848
-a (focus): #383848
+a (hover): $secondary-color
+a (active): $secondary-color
+a (focus): $secondary-color
 -------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 [Typography]
@@ -300,7 +300,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #383848;
+  color: #1a1a1c;
   line-height: normal;
   margin: 0 0 16px 0;
   font-weight: 700;
@@ -404,7 +404,7 @@ h6 {
   -ms-border-radius: 100%;
   -o-border-radius: 100%;
   border-radius: 100%;
-  border: 2px solid #383848;
+  border: 2px solid #1a1a1c;
   line-height: 50px;
   font-size: 16px;
   color: #5c5c6e; }
@@ -575,7 +575,7 @@ h6 {
   background: #f4f2ed; }
 
 .feature-label .feature-info span {
-  color: #383848; }
+  color: #1a1a1c; }
 
 .feature-label .icon-user {
   background: url("../images/user1.png") no-repeat center center; }
@@ -1294,7 +1294,7 @@ textarea {
   width: auto;
   font-family: 'Graviola-Regular';
   font-size: 13px;
-  background: #383848;
+  background: #1a1a1c;
   -webkit-border-radius: 18px;
   -moz-border-radius: 18px;
   -ms-border-radius: 18px;
@@ -1359,7 +1359,7 @@ textarea {
 .header-bottom {
   float: left;
   width: 100%;
-  background: #383848;
+  background: #1a1a1c;
   position: relative;
   border-bottom: 6px solid #1b1b29; }
 
@@ -3255,13 +3255,13 @@ textarea {
   color: #9a9a9a; }
 
 .wrapper-spacer-bg .table-title h2 {
-  color: #383848; }
+  color: #1a1a1c; }
 
 .wrapper-spacer-bg .modal-body .jq-selectbox__select {
   border-color: #e5e5ee; }
 
 .wrapper-spacer-bg .jq-selectbox__select {
-  border-color: #383848; }
+  border-color: #1a1a1c; }
 
 .wrapper-spacer-bg .jq-selectbox__select-text {
   color: #636375; }
@@ -3273,7 +3273,7 @@ textarea {
 .wrapper-spacer-bg .table-part.booktable input[type="number"] {
   background: transparent;
   color: #636375;
-  border-color: #383848; }
+  border-color: #1a1a1c; }
 
 .wrapper-spacer-bg .portfolioFilter-inner,
 .wrapper-spacer-bg .portfolioFilter a.current {
@@ -3290,7 +3290,7 @@ textarea {
   color: #f6f0f2; }
 
 .wrapper-spacer-bg .chef-slote .chef-info {
-  background: #383848; }
+  background: #1a1a1c; }
 
 .wrapper-spacer-bg .owl-theme .owl-nav .owl-prev {
   background: url("../images/arrow-left.png") no-repeat center center; }
@@ -3339,7 +3339,7 @@ textarea {
   background: #e85404; }
 
 .wrapper-spacer-bg .owl-theme .owl-dots .owl-dot span {
-  background: #383848; }
+  background: #1a1a1c; }
 
 .wrapper-spacer-bg .feature-list h5,
 .wrapper-spacer-bg .feature-list {
@@ -3357,7 +3357,7 @@ textarea {
   left: 4%;
   width: 92%;
   height: 1px;
-  background: #383848;
+  background: #1a1a1c;
   content: "";
   top: 40px; }
 
@@ -3622,7 +3622,7 @@ textarea {
   padding: 19px 0; }
 
 .header-expert .menu-main li a {
-  color: #383848; }
+  color: #1a1a1c; }
 
 .header-expert .search-part > a {
   background-image: url("../images/icon-zoom-blue.png"); }
@@ -3631,7 +3631,7 @@ textarea {
   background-image: url("../images/close-blue.png"); }
 
 .header-expert .header-collect a {
-  color: #383848; }
+  color: #1a1a1c; }
 
 .header-expert .search-box {
   top: 76px; }
@@ -4222,7 +4222,7 @@ textarea {
   border-radius: 17px; }
 
 .blog-left-section h5 {
-  color: #383848;
+  color: #1a1a1c;
   text-align: left; }
 
 .blog-left-section .list li {
@@ -5048,7 +5048,7 @@ textarea {
   margin: 20px 0 0 0; }
 
 .related-info a {
-  color: #383848; }
+  color: #1a1a1c; }
 
 .related-info h6 {
   margin: 0 0 10px 0; }
@@ -5829,7 +5829,7 @@ body main .team-page {
 .terms-right {
   float: left;
   width: 100%;
-  background: #383848;
+  background: #1a1a1c;
   -webkit-border-radius: 17px;
   -moz-border-radius: 17px;
   -ms-border-radius: 17px;

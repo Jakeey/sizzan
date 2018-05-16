@@ -43,13 +43,13 @@ AUTHOR: Sailendra SHRESTHA
 
 Background: #ffffff
 Content: #7a7676
-Header h1 to h6: #383848
+Header h1 to h6: $secondary-color
 Footer: #20202f
 
 a (standard): $primary-color
-a (hover): #383848
-a (active): #383848
-a (focus): #383848
+a (hover): $secondary-color
+a (active): $secondary-color
+a (focus): $secondary-color
 -------------------------------------------------------------------*/
 
 
@@ -411,7 +411,7 @@ Sidebar heading: 18px 14px/42px Source Sans Pro, Graviola-Regular, QuicksandBook
 }
 
 .wrapper-spacer-bg .table-title h2 {
-    color: #383848;
+    color: $secondary-color;
 }
 
 .wrapper-spacer-bg .modal-body .jq-selectbox__select {
@@ -419,7 +419,7 @@ Sidebar heading: 18px 14px/42px Source Sans Pro, Graviola-Regular, QuicksandBook
 }
 
 .wrapper-spacer-bg .jq-selectbox__select {
-    border-color: #383848;
+    border-color: $secondary-color;
 }
 
 .wrapper-spacer-bg .jq-selectbox__select-text {
@@ -433,7 +433,7 @@ Sidebar heading: 18px 14px/42px Source Sans Pro, Graviola-Regular, QuicksandBook
 .wrapper-spacer-bg .table-part.booktable input[type="number"] {
     background: transparent;
     color: #636375;
-    border-color: #383848;
+    border-color: $secondary-color;
 }
 
 .wrapper-spacer-bg .portfolioFilter-inner,
@@ -455,7 +455,7 @@ Sidebar heading: 18px 14px/42px Source Sans Pro, Graviola-Regular, QuicksandBook
 }
 
 .wrapper-spacer-bg .chef-slote .chef-info {
-    background: #383848;
+    background: $secondary-color;
 }
 
 .wrapper-spacer-bg .owl-theme .owl-nav .owl-prev {
@@ -520,7 +520,7 @@ Sidebar heading: 18px 14px/42px Source Sans Pro, Graviola-Regular, QuicksandBook
 }
 
 .wrapper-spacer-bg .owl-theme .owl-dots .owl-dot span {
-    background: #383848;
+    background: $secondary-color;
 }
 
 .wrapper-spacer-bg .feature-list h5,
@@ -541,7 +541,7 @@ Sidebar heading: 18px 14px/42px Source Sans Pro, Graviola-Regular, QuicksandBook
     left: 4%;
     width: 92%;
     height: 1px;
-    background: #383848;
+    background: $secondary-color;
     content: "";
     top: 40px;
 }
@@ -873,7 +873,7 @@ Sidebar heading: 18px 14px/42px Source Sans Pro, Graviola-Regular, QuicksandBook
 }
 
 .header-expert .menu-main li a {
-    color: #383848;
+    color: $secondary-color;
 }
 
 .header-expert .search-part>a {
@@ -885,7 +885,7 @@ Sidebar heading: 18px 14px/42px Source Sans Pro, Graviola-Regular, QuicksandBook
 }
 
 .header-expert .header-collect a {
-    color: #383848;
+    color: $secondary-color;
 }
 
 .header-expert .search-box {
@@ -1580,7 +1580,7 @@ Sidebar heading: 18px 14px/42px Source Sans Pro, Graviola-Regular, QuicksandBook
 }
 
 .blog-left-section h5 {
-    color: #383848;
+    color: $secondary-color;
     text-align: left;
 }
 
@@ -2550,7 +2550,7 @@ Sidebar heading: 18px 14px/42px Source Sans Pro, Graviola-Regular, QuicksandBook
 }
 
 .related-info a {
-    color: #383848;
+    color: $secondary-color;
 }
 
 .related-info h6 {
@@ -3500,7 +3500,7 @@ body main .team-page {
 .terms-right {
     float: left;
     width: 100%;
-    background: #383848;
+    background: $secondary-color;
     -webkit-border-radius: 17px;
     -moz-border-radius: 17px;
     -ms-border-radius: 17px;
