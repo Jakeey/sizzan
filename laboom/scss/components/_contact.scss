@@ -1,0 +1,82 @@
+/*------------------------------------------------------------------
+[19. Contact ]
+------------------------------------------------------------------*/
+
+.contact-part iframe,
+.contact-part .map {
+    width: 100% !important;
+    margin-bottom: 45px;
+}
+
+.contact-blog-row {
+    float: left;
+    width: 100%;
+    border: 2px solid #f4f2ed;
+    padding: 25px 45px;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    -ms-border-radius: 17px;
+    -o-border-radius: 17px;
+    border-radius: 17px;
+    color: #20202f;
+    text-align: center;
+    min-height: 212px;
+    margin-bottom: 70px;
+}
+
+.contact-blog-row a {
+    color: #20202f;
+}
+
+.contact-icon {
+    display: block;
+    min-height: 65px;
+}
+
+.contact-blog-row p {
+    margin: 45px 0 0 0;
+}
+
+.contact-part .submit-btn {
+    float: right;
+}
+
+.co-title {
+    font-size: 20px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 13px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.time-list li {
+    margin-bottom: 8px;
+}
+
+.time-list li span {
+    display: inline-block;
+    width: auto;
+}
+
+.time-list .week-name {
+    min-width: 180px;
+}
+
+.contact-part address {
+    margin-bottom: 50px;
+    color: #20202f;
+}
+
+.contact-part address a {
+    color: #20202f;
+}
+
+.contact-part address a:hover {
+    color: $primary-color;
+}
+
+.contact-part .title {
+    display: inline-block;
+    margin-bottom: 50px;
+    width: 100%;
+}
