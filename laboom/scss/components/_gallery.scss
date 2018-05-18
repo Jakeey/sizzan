@@ -1,0 +1,197 @@
+/*------------------------------------------------------------------
+[13. Gallery Page ]
+------------------------------------------------------------------*/
+
+.gallery-royal {
+    display: inline-block;
+    width: 100%;
+}
+
+.gallery-megic-blog {
+    float: left;
+    width: 100%;
+    position: relative;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    -ms-border-radius: 17px;
+    -o-border-radius: 17px;
+    border-radius: 17px;
+    color: #ffffff;
+    margin: 0 0 30px 0;
+}
+
+.gallery-megic-blog h1,
+.gallery-megic-blog h2,
+.gallery-megic-blog h3,
+.gallery-megic-blog h4,
+.gallery-megic-blog h5,
+.gallery-megic-blog h6,
+.gallery-megic-blog p {
+    margin: 0px;
+    color: #ffffff;
+}
+
+.gallery-megic-inner {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    padding: 20px;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    -ms-border-radius: 17px;
+    -o-border-radius: 17px;
+    border-radius: 17px;
+    overflow: hidden;
+    opacity: 0;
+    z-index: -1;
+    -webkit-transform: scale(0) rotate(-180deg);
+    -moz-transform: scale(0) rotate(-180deg);
+    -ms-transform: scale(0) rotate(-180deg);
+    -o-transform: scale(0) rotate(-180deg);
+    transform: scale(0) rotate(-180deg);
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.gallery-megic-out {
+    display: table;
+    width: 100%;
+    position: relative;
+    height: 100%;
+    background: rgba(228, 185, 91, 0.90);
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    -ms-border-radius: 17px;
+    -o-border-radius: 17px;
+    border-radius: 17px;
+}
+
+.gallery-megic-detail {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+}
+
+.gallery-megic-blog img {
+    width: 100%;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    -ms-border-radius: 17px;
+    -o-border-radius: 17px;
+    border-radius: 17px;
+}
+
+.gallery-megic-detail span {
+    font-size: 16px;
+}
+
+.gallery-megic-blog:hover .gallery-megic-inner {
+    opacity: 1;
+    -webkit-transform: scale(1) rotate(0deg);
+    -moz-transform: scale(1) rotate(0deg);
+    -ms-transform: scale(1) rotate(0deg);
+    -o-transform: scale(1) rotate(0deg);
+    transform: scale(1) rotate(0deg);
+    -webkit-transition-delay: 0.1s;
+    -moz-transition-delay: 0.1s;
+    -ms-transition-delay: 0.1s;
+    -o-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+    z-index: 1;
+}
+
+.gallery-pagination {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    font-family: 'QuicksandBold-Regular';
+    font-size: 13px;
+    color: #959393;
+    margin-top: 40px;
+}
+
+.gallery-pagination-inner {
+    display: inline-block;
+    width: auto;
+}
+
+.gallery-pagination ul,
+.gallery-pagination li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.gallery-pagination li {
+    display: inline-block;
+    width: auto;
+    margin-right: 18px;
+    text-align: center;
+}
+
+.gallery-pagination li:last-child {
+    margin-right: 0px;
+}
+
+.gallery-pagination li a {
+    display: block;
+    padding: 0px;
+    border: 2px solid #f4f2ed;
+    -webkit-border-radius: 80px;
+    -moz-border-radius: 80px;
+    -ms-border-radius: 80px;
+    -o-border-radius: 80px;
+    border-radius: 80px;
+    width: 52px;
+    height: 52px;
+    line-height: 50px;
+    color: #959393;
+}
+
+.gallery-pagination li .pagination-prev,
+.gallery-pagination li .pagination-next {
+    text-transform: uppercase;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    -o-border-radius: 28px;
+    border-radius: 28px;
+    padding: 0 30px;
+    width: auto;
+}
+
+.gallery-pagination li:hover a,
+.gallery-pagination li.active a {
+    background: #20202f;
+    color: #ffffff;
+}
+
+.pagination-prev .fa {
+    margin-right: 6px;
+}
+
+.pagination-next .fa {
+    margin-left: 6px;
+}
+
+.mesonay-megic img,
+.mesonay-megic .msrItem {
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    -ms-border-radius: 17px;
+    -o-border-radius: 17px;
+    border-radius: 17px;
+    margin: 0px;
+}
