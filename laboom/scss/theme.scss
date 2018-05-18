@@ -2751,7 +2751,69 @@ body main .team-page {
 
 
 
+/*------------------------------------------------------------------
+[22. Terms & Condition ]
+------------------------------------------------------------------*/
 
+.terms-left {
+    float: left;
+    width: 100%;
+    padding-right: 50px;
+}
+
+.terms-left h5 {
+    color: #20202f;
+}
+
+.terms-left p:last-child {
+    margin-bottom: 0px;
+}
+
+.terms-right {
+    float: left;
+    width: 100%;
+    background: $secondary-color;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    -ms-border-radius: 17px;
+    -o-border-radius: 17px;
+    border-radius: 17px;
+    color: #ffffff;
+}
+
+.terms-right ul {
+    padding: 18px 0;
+}
+
+.terms-right li {
+    display: block;
+    width: 100%;
+}
+
+.terms-right li a {
+    display: block;
+    width: 100%;
+    padding: 11px 30px;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    color: #ffffff;
+}
+
+.terms-right li.active a,
+.terms-right li:hover a {
+    background: $primary-color;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    border-radius: 50px;
+    margin-left: -15%;
+    width: 115%;
+    padding: 11px 30px 11px 68px;
+}
 
 
 
